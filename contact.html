@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+	
+	<head>
+		<title>Contact</title>
+		<link rel="stylesheet" type="text/css" href="travelcss.css" />
+			<style>
+			.formDesc{
+				position: absolute;
+				top: 300px;
+				right: 0px;
+				height: 200px;
+				width: 50%;
+				visibility: hidden;
+			}
+			
+			table{
+				width: 50%;
+			}
+			#home:hover{
+		background-color: coral;
+		
+	}
+			
+		</style>
+		<script>
+			function showDesc(paraId)
+			{
+				var paras = document.getElementsByClassName("formDesc");
+					for (i=0; i<paras.length; i++)
+						{
+						paras[i].style.visibility = "hidden";
+						}
+						document.getElementById(paraId).style.visibility = "visible";
+			}
+			function validate()
+			{
+				var postal = document.getElementById("postal");
+				postal.value = postal.value.toUpperCase();
+				var regex = new RegExp(/^[A-Z]\d[A-Z][ -]?\d[A-Z]\d$/);
+					if (!regex.test(postal.value))
+					{
+						alert("Postal code invalid");
+						postal.focus();
+						return false;
+					}
+					
+					return confirm ("Form okay, Continue?")
+			}
+			
+		</script>
+		
+		<link rel="stylesheet" type="text/css" href="travelcss.css" />
+		
+	</head>
+	<body>
+		
+	
+		<header>
+			<h1><a href="index.html"><img id= "home" src= "photos/traveltheworld.png" height="100px" width="100px"></a> Welcome to Travel Experts!<img id= "home" src= "photos/traveltheworld.png" height="100px" width="100px"></h1>
+		</header>
+		<br />
+		<br />
+		
+	
+		<h1>CONTACT</h1><br />
+		<br />
+	<p>The staff here at travel experts are excited to help you with all your travel needs!
+	Please fill out the form below and an agent will contact you to start planning your next adventure! </p><br />
+	
+		<p class="formDesc" id="parafname">Enter your first name</p>
+		<p class="formDesc" id="paralname">Enter your last name</p>
+		<p class="formDesc" id="parapostal">Enter your postal code</p>
+		<p class="formDesc" id="paraphone">Enter your phone number</p>
+		<p class="formDesc" id="paradest">Enter your destination</p>
+		
+		<form method="post" action="bouncer.php">
+			<table>
+				<tr>
+					<td>First Name:</td>
+					<td><input type="text" name= "fname" required="required" onfocus="showDesc('parafname');"/></td>
+				</tr>
+					<tr>
+					<td>Last Name:</td>
+					<td><input type="text" name= "lname" required="required"onfocus="showDesc('paralname');" /></td>
+				</tr>
+					<tr>
+					<td>Postal Code:</td>
+					<td><input type="text" name= "postal" id="postal" required="required" onfocus="showDesc('parapostal');"/></td>
+				</tr>
+				</tr>
+					<tr>
+					<td>Phone Number:</td>
+					<td><input type="phone" name= "phone" required="required" onfocus="showDesc('paraphone');"/></td>
+				</tr>
+						<tr>
+					<td>Destination:</td>
+					<td><input type="text" name= "destination" required="required" onfocus="showDesc('paradest');"/></td>
+				</tr>
+					<tr>
+					<td><input type="submit" value= "Submit" onclick="return validate()" /></td>
+					<td><input type="reset" onclick= "return confirm('Are you sure?');" /></td>
+					
+				</tr>
+			</table>
+		</form>
+	
+	<ol>
+		<li>Tom Jones - 403-555-5551  <a href="TJ@TE.com">TJ@TE.com</a></li>
+		<li>Louis Smith - 403-555-5552 <a href = "LS@TE.com">LS@TE.com</a></li>
+		<li>Molly Thatcher - 403-555-5553 <a href="MT@TE.com">MT@TE.com</a></li>
+		<li>Tori Lane - 403-555-5554 <a href="TL@TE.com">TL@TE.com</a></li>
+	</ol>
+	
+	<footer>
+		<img src="images/2018frequentflyer.gif" />
+		</footer>
+	</body>
+</html>
