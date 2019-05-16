@@ -1,0 +1,13 @@
+C:\Users\340903\OneDrive - Southern Alberta Institute of Technology\CPRG 200\Neufeld_Lee_CPRG200_Lab4\Neufeld_Lee_CPRG200_Lab4\obj\Debug\Neufeld_Lee_CPRG200_Lab4.csprojResolveAssemblyReference.cache
+C:\Users\340903\OneDrive - Southern Alberta Institute of Technology\CPRG 200\Neufeld_Lee_CPRG200_Lab4\Neufeld_Lee_CPRG200_Lab4\obj\Debug\Neufeld_Lee_CPRG200_Lab4.Properties.Resources.resources
+C:\Users\340903\OneDrive - Southern Alberta Institute of Technology\CPRG 200\Neufeld_Lee_CPRG200_Lab4\Neufeld_Lee_CPRG200_Lab4\obj\Debug\Neufeld_Lee_CPRG200_Lab4.csproj.GenerateResource.Cache
+C:\Users\340903\OneDrive - Southern Alberta Institute of Technology\CPRG 200\Neufeld_Lee_CPRG200_Lab4\Neufeld_Lee_CPRG200_Lab4\obj\Debug\Neufeld_Lee_CPRG200_Lab4.csproj.CoreCompileInputs.cache
+C:\Users\340903\OneDrive - Southern Alberta Institute of Technology\CPRG 200\Neufeld_Lee_CPRG200_Lab4\Neufeld_Lee_CPRG200_Lab4\bin\Debug\Neufeld_Lee_CPRG200_Lab4.exe.config
+C:\Users\340903\OneDrive - Southern Alberta Institute of Technology\CPRG 200\Neufeld_Lee_CPRG200_Lab4\Neufeld_Lee_CPRG200_Lab4\bin\Debug\Neufeld_Lee_CPRG200_Lab4.exe
+C:\Users\340903\OneDrive - Southern Alberta Institute of Technology\CPRG 200\Neufeld_Lee_CPRG200_Lab4\Neufeld_Lee_CPRG200_Lab4\bin\Debug\Neufeld_Lee_CPRG200_Lab4.pdb
+C:\Users\340903\OneDrive - Southern Alberta Institute of Technology\CPRG 200\Neufeld_Lee_CPRG200_Lab4\Neufeld_Lee_CPRG200_Lab4\obj\Debug\Neufeld_Lee_CPRG200_Lab4.exe
+C:\Users\340903\OneDrive - Southern Alberta Institute of Technology\CPRG 200\Neufeld_Lee_CPRG200_Lab4\Neufeld_Lee_CPRG200_Lab4\obj\Debug\Neufeld_Lee_CPRG200_Lab4.pdb
+C:\Users\340903\OneDrive - Southern Alberta Institute of Technology\CPRG 200\Neufeld_Lee_CPRG200_Lab4\Neufeld_Lee_CPRG200_Lab4\bin\Debug\OrderData.dll
+C:\Users\340903\OneDrive - Southern Alberta Institute of Technology\CPRG 200\Neufeld_Lee_CPRG200_Lab4\Neufeld_Lee_CPRG200_Lab4\bin\Debug\OrderData.pdb
+C:\Users\340903\OneDrive - Southern Alberta Institute of Technology\CPRG 200\Neufeld_Lee_CPRG200_Lab4\Neufeld_Lee_CPRG200_Lab4\obj\Debug\Neufeld_Lee_CPRG200_Lab4.frmOrder.resources
+C:\Users\340903\OneDrive - Southern Alberta Institute of Technology\CPRG 200\Neufeld_Lee_CPRG200_Lab4\Neufeld_Lee_CPRG200_Lab4\obj\Debug\Neufeld_Lee_CPRG200_Lab4.frmUpdate.resources
