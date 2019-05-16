@@ -1,0 +1,6 @@
+Company, 123,    C, 15.000
+Company 2, 123,   C, 62.250
+Indust, 124,  I, 116
+Lee, 1,  R, 266.000
+Comm, 2,  C, 240.000
+Comm, 2,  C, 15.000
